@@ -1,6 +1,11 @@
 * {
   font-family: "Ubuntu", sans-serif;
 }
+form{
+  height: 60vh;
+  display: block;
+  margin: 20px 20px;
+}
 
 .navbar {
   width: 100%;
@@ -27,9 +32,9 @@ img {
   align-items: center;
 }
 .main {
-  background-repeat: no-repeat;
-  background-image: url("https://pgc.edu/wp-content/uploads/2021/07/Pre-engineering-A.jpg");
-
+  
+  background: url(./Pre-engineering-A.jpg) no-repeat ;
+  background-size: 100% 100%;
   display: inline-flex;
   width: 100vw;
   height: 80vh;
@@ -57,12 +62,13 @@ h2 {
 }
 h4 {
   margin: 5px;
+  text-decoration: none;
 }
 
 .Sign-in-btn {
   margin: 10px 10px;
-  border-radius: 10%;
-  border: 1px solid grey;
+  font-weight: bold;
+  border: 1px solid black;
   background-color: transparent;
   width: 60px;
   height: 30px;
@@ -70,22 +76,26 @@ h4 {
 }
 .Sign-in-btn:hover {
   background-color: #4173ca;
-  font-weight: bold;
+  font-weight: bolder;
   border-radius: 18px;
 }
 input {
-  border-radius: 18px;
+  /* border-radius: 18px; */
   border-bottom: 1px solid black;
   width: 200px;
 }
 input:hover {
   border: 2px solid #4173ca;
 }
-li:hover {
+a:hover {
   text-decoration: underline;
   font-weight: bold;
   color: rgb(41, 41, 205);
 }
 p {
-  font-size: 17px;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 5%;
+  color:rgb(15, 10, 10);
+
 }

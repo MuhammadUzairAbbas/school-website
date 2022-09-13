@@ -27,8 +27,8 @@
     align-items: center;
   }
   .main {
-    background-repeat: no-repeat;
-    background-image: url("https://pgc.edu/wp-content/uploads/2021/07/Pre-engineering-A.jpg");
+    background: url(./Pre-engineering-A.jpg) no-repeat ;
+    background-size: 100% 100%;
   
     display: inline-flex;
     justify-content: center;
@@ -58,32 +58,12 @@
   h4 {
     margin: 5px;
   }
-  
-  .Sign-in-btn {
-    margin: 10px 10px;
-    border-radius: 10%;
-    border: 1px solid grey;
-    background-color: transparent;
-    width: 60px;
-    height: 30px;
-    transition: all 0.25s ease-in-out;
+  a{
+    text-decoration: none;
   }
-  .Sign-in-btn:hover {
-    background-color: #4173ca;
-    font-weight: bold;
-    border-radius: 18px;
-  }
-  input {
-    border-radius: 18px;
-    border-bottom: 1px solid black;
-    width: 200px;
-  }
-  input:hover {
-    border: 2px solid #4173ca;
-  }
-  li:hover {
+  a:hover {
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(41, 41, 205);
   }
   td {
